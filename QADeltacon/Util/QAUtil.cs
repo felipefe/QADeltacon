@@ -21,9 +21,16 @@ namespace Util
 
         }
 
-        internal void LoginSistema()
+        internal void CliqueEntrarSistema()
         {
-            driverNavegadorChrome.FindElement(By.)
+            driverNavegadorChrome.FindElement(By.Id("UserName")).SendKeys("DeltaconUser");
+            driverNavegadorChrome.FindElement(By.Id("Password")).SendKeys("Delt@12345");
+            driverNavegadorChrome.FindElement(By.ClassName("btn waves-effect waves-light green darken-2")).Click();
+        }
+
+        internal void Entrou()
+        {
+            driverNavegadorChrome.Manage().Window.Minimize();
         }
 
         public void NavegadorAberto()

@@ -93,10 +93,8 @@ testRunner.Then("acessar a pagina inicial", ((string)(null)), ((TechTalk.SpecFlo
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
 #line 12
-testRunner.Given("que o navegador chrome esteja aberto", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
-#line 13
 testRunner.When("for clicado no botão entrar", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
-#line 14
+#line 13
 testRunner.Then("logar no sistema", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Então ");
 #line hidden
             this.ScenarioCleanup();

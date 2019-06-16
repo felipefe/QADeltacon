@@ -9,7 +9,6 @@ Então acessar a pagina inicial
 
 @inserir_login
 Cenario: login no sistema
-Dado que o navegador chrome esteja aberto
 Quando for clicado no botão entrar
 Então logar no sistema
 
